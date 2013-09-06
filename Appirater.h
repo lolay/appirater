@@ -246,6 +246,12 @@ extern NSString *const kAppiraterReminderRequestDate;
  */
 + (void)setAlwaysUseMainBundle:(BOOL)useMainBundle;
 
+/*
+ If set, this URL will be used when rating the app instead of an itms-apps URL.
+ Occurrences of APP_ID will be replaced by the app that was set using setAppId:.
+ */
++ (void)setReviewURL:(NSString*) reviewURL;
+
 @end
 
 

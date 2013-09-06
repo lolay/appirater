@@ -123,6 +123,10 @@ static BOOL _alwaysUseMainBundle = NO;
 + (void)setAlwaysUseMainBundle:(BOOL)alwaysUseMainBundle {
     _alwaysUseMainBundle = alwaysUseMainBundle;
 }
++ (void)setReviewURL:(NSString*) reviewURL {
+    templateReviewURL = reviewURL;
+}
+
 
 + (NSBundle *)bundle
 {
